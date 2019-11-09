@@ -7,6 +7,6 @@ var moment = require("moment");
 
 app.use('/', express.static(__dirname + '/www'));
 
-server.listen(process.env.PORT || 3000);//publish to heroku
+server.listen(process.env.PORT || 8082);//publish to heroku
 
-console.log("SERVER IS RUNNING ON", process.env.PORT || 3000)
+console.log("SERVER IS RUNNING ON", process.env.PORT || 8082)
